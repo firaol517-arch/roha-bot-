@@ -40,7 +40,7 @@ ADMIN_LIST = [int(x.strip()) for x in ADMIN_IDS.split(",") if x.strip()]
 
 # Gemini setup
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 # ─────────────────────────────────────────────
 # Database
